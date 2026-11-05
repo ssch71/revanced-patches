@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ample Xposed</string>
+    <string name="module_description">카카오톡 / 디시인사이드용 후크 모음 (Ample ReVanced 패치의 Xposed 버전)</string>
+</resources>
