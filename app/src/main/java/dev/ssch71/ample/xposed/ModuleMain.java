@@ -3,7 +3,6 @@
  */
 package dev.ssch71.ample.xposed;
 
-import androidx.annotation.NonNull;
 
 import dev.ssch71.ample.xposed.core.AppHooks;
 import dev.ssch71.ample.xposed.core.HookContext;
@@ -18,7 +17,7 @@ public class ModuleMain extends XposedModule {
     };
 
     @Override
-    public void onPackageReady(@NonNull PackageReadyParam param) {
+    public void onPackageReady(PackageReadyParam param) {
         // 프로세스당 한 번만 (보조 패키지 로드 시에는 건너뜀)
         if (!param.isFirstPackage()) return;
 
